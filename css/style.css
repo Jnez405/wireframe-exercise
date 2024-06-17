@@ -1,0 +1,132 @@
+body {
+  display: flexbox;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-color: #404040;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  padding: 15px;
+}
+
+header img {
+  display: inline-flex;
+  height: 70px;
+  width: 200px;
+  padding: 20px 20px;
+}
+
+nav {
+  display: inline-flex;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+Nav li {
+  display: inline-flex;
+}
+
+Nav li a {
+  color: #ffffff;
+  padding: 20px 20px;
+  padding-left: 80px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  margin: 0px;
+  padding: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  align-content: center;
+}
+
+section img {
+  display: flex;
+  padding: 15px;
+}
+
+h1 {
+  font-family: sans-serif;
+  background-color: inherit;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 2em;
+  width: max-content;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+article {
+  display: inline;
+  padding: 15px;
+}
+
+article h2 {
+  text-align: left;
+}
+
+/* scrollable container */
+article p {
+  width: 450px;
+  height: 300px;
+  text-align: left;
+  overflow: auto;
+}
+
+
+/* HOVER AND TRANSITION */
+button:hover {
+  background-color: #808080;
+  ;
+}
+
+button {
+  transition: 350ms;
+  height: 30px;
+  width: 150px;
+  border-radius: 6px;
+  margin-top: 20px;
+  background-color: black;
+}
+
+button p {
+  color: white;
+}
+
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #444;
+}
